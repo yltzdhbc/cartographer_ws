@@ -1,11 +1,11 @@
 # cartographer_ws
 
-#2020.08.02
+# 2020.08.02
 国内安装cartographer十分困难，因此我将其下载放入工作空间中
-兼容：
-已经测试: Ubuntu16.04+Kinetic
-使用方法：
-下载or克隆到朱目录下
+
+兼容：已经测试: Ubuntu16.04+Kinetic
+
+使用方法：下载or克隆到朱目录下
 ```sheel
 cd ~
 ```
@@ -30,6 +30,6 @@ echo	"source ~/cartographer_ws/install_isolated/setup.bash"	>>	~/.bashrc
 ```sheel
 wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag
 roslaunch cartographer_ros demo_backpack_2d.launch bag_filename:=${HOME}/Downloads/cartographer_paper_deutsches_museum.bag
-``
+```
 如果能运行则安装完毕
 enjoy!
