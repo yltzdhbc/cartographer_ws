@@ -24,7 +24,7 @@ catkin_make_isolated --install --use-ninja
 ```
 ## 3.声明工作空间
 ```sheel
-echo	"source ~/cartographer_ws/install_isolated/setup.bash"	>>	~/.bashrc
+echo "source ~/cartographer_ws/install_isolated/setup.bash" >> ~/.bashrc
 ```
 ## 4.测试 下载bag运行
 ```sheel
